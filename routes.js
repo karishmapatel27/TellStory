@@ -6,6 +6,7 @@ const router = express.Router()
 module.exports = router
 
 router.get('/', (req, res) => {
+  db.setStartingSentence()
   db.getStartingSentence()
     .then(viewData => {
       res.render('home', viewData)
@@ -36,19 +37,20 @@ router.post("/add-sentence", (req, res) => {
     })
 })
 
-router.get("/display-story",(req,res) => {
+router.get("/display-story", (req, res) => {
   db.getStartingSentence()
     .then(startingSentence => {
       db.getStory()
-      .then(story => {
-        res.render('display-story', {
-          startingSentence: startingSentence.startingSentence,
-          story: story
-        })}
-      )
+        .then(story => {
+          res.render('display-story', {
+            startingSentence: startingSentence.startingSentence,
+            story: story
+          })
+        }
+        )
     })
     .catch((err) => {
       console.log(err.message);
       res.status(500).send("Ohhh no an error: 500!")
     })
-  })
+})
