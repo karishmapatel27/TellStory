@@ -3,22 +3,22 @@ body {
   font-size: 25px;
   text-align: center;
   color: white;
-  background-image: url(cloud.jpg);
+  background-image: url(side_flower.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;  
 }
 
 .display{
   background-color: aliceblue;
   color: black;
-  margin: 0% 7.5% 0% 7.5%;
+  margin: 0% 15% 5% 15%;
+  padding: 5%;
 }
 
 h1 {
   color: #9CC3D5FF;
- 
 }
 
 .instructions {
@@ -76,4 +76,11 @@ a {
 .centre {
 text-align: center;
 padding: 0%;
+}
+
+@media only screen and (max-width: 767px) {
+  .display{
+  margin: 0% 7.5% 5% 7.5%;
+  padding: 5%;
+}
 }
