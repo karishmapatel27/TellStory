@@ -1,13 +1,15 @@
-<p>Starting Sentence:</p>
-<p><strong>{{startingSentence}}</strong></p>
+<p class="sub_heading">Starting Sentence:</p>
+<div class="starting_sentence">
+  <p><strong>{{startingSentence}}</strong></p>
+</div>
 <form action='/add-sentence' method="POST">
-  <label for="sentence">Write the next sentence here:</label><br>
+  <label class="sub_heading" for="sentence">Write the next sentence here:</label><br>
   <textarea type="text" id="sentence" name="sentence"></textarea><br> <br>
   <input class="button" type="submit" value="Submit">
 </form>
 
-<p class="centre">How to Play...</p>
-<div class="instructions">
+<p class="sub_heading">How to Play...</p>
+<div class="instruction_box">
   <ol>
     <li>The first player will be presented with a given sentence to start the story with.</li><br>
     <li>They will need need to write the next sentence in the above box to carry on the story.</li><br>
@@ -17,5 +19,5 @@
     <li>Repeat steps 2 and 3 for the desired amount of entries</li><br>
     <li>Once all players have added their sentence, click 'Generate Story' to put the story together.</li>
   </ol>
-  <p class="centre"><strong>Enjoy your story!!!</strong></p>
+  <p><strong>Enjoy your story!!!</strong></p>
 </div>
