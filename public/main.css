@@ -1,14 +1,25 @@
 body {
-  background-color: rgb(85, 128, 171);
   font-family: 'montserrat', sans-serif;
   font-size: 25px;
   text-align: center;
-  color: white;
+  color: rgb(203, 238, 147); 
+  background-image: url(side_flower.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;  
+}
+
+.display{
+  background-color: aliceblue;
+  color: black;
+  margin: 0% 15% 5% 15%;
+  padding: 5%;
 }
 
 h1 {
-  color: #9CC3D5FF;
- 
+  color:white;
+  font-family: 'comic_boom_bubble_demoregular', sans-serif;
 }
 
 .instructions {
@@ -39,8 +50,8 @@ textarea {
 
 .button {
   color:white;
-  background-color: #9CC3D5FF;
-  border-color: #9CC3D5FF;
+  background-color:rgb(170, 134, 51); 
+  border-color: rgb(152, 117, 38); 
   padding: 10px;
   font-size: 15px;
   font-family: 'montserrat', sans-serif;
@@ -66,4 +77,21 @@ a {
 .centre {
 text-align: center;
 padding: 0%;
+}
+
+
+@font-face {
+    font-family: 'comic_boom_bubble_demoregular';
+    src: url('comicboombubbledemo-rg44y-webfont.woff2') format('woff2'),
+    url('comicboombubbledemo-rg44y-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media only screen and (max-width: 767px) {
+  .display{
+  margin: 0% 7.5% 5% 7.5%;
+  padding: 5%;
+}
 }

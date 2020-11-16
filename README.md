@@ -25,10 +25,10 @@ You can find the server running on [http://localhost:3000](http://localhost:3000
 1. As a user, I want to print my story. 
 
 ## Stretch Goal
-1. Update CSS.
-1. Add print story button.
-1. Make it multi-player
-1. Have a random word generator 
+[x] Update CSS.
+[x] Add print story button.
+[] Make it multi-player
+[] Have a random word generator 
 
 ## Team
 
