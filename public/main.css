@@ -4,6 +4,7 @@ body {
   text-align: center;
   color: white; 
   background-image: url(side_flower.png);
+  /* background-image: url(cloud.jpg); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,7 +37,7 @@ h1 {
 h2{
   color: rgb(203, 238, 147); 
   text-align: center;
-  font-size: 4vh;
+  font-size: 3.5vh;
 }
 
 .instruction_box {
@@ -54,11 +55,6 @@ h2{
   margin: 0% 15% 0% 15%;  
   text-align: left;
   font-size: 2.3vh;
-}
-
-li {
-  text-align: left;
-  font-size: 15px;;
 }
 
 textarea {
@@ -117,7 +113,7 @@ color: white;
 .display{
   text-align: center;
   font-size: 4vw;
-  margin: 0% 10% 30% 10%;
+  margin: 0% 10% 40% 10%;
   padding: 4%;
 }
 
@@ -128,6 +124,8 @@ h1 {
 
 h2{
   font-size: 6vw;
+  margin-top: 15%;
+  margin-bottom: 3%;
 }
 
 .starting_sentence{ 
@@ -141,8 +139,136 @@ h2{
   font-size:5vw;
 }
 
+.instruction_box {
+  width:85%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
 .instruction_box li {
-  margin: 0% 8% 0% 8%;  
+  margin: 0% 5% 0% 5%;  
   text-align: left;
+  font-size: 2vh;
+}
+
+body {
+  background-image: url(flower_Mobile.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;  
+}
+}
+
+@media only screen and (max-width: 768px) {
+.display{
+  text-align: center;
+  font-size: 4vw;
+  margin: 0% 12% 20% 12%;
+  padding: 4%;
+}
+
+h1 {
+  margin-top:17%;
+  font-size: 11vw;
+}
+
+h2{
+  font-size: 4vw;
+  margin-top: 15%;
+  margin-bottom: 3%;
+}
+
+.starting_sentence{ 
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  font-size:4vw;
+}
+
+.sub_heading{
+  font-size:3.7vw;
+}
+
+.instruction_box {
+  width:80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.instruction_box li {
+  margin: 0% 5% 0% 5%;  
+  text-align: left;
+}
+
+body {
+  background-image: url(flower_Mobile.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 125% 110%; 
+  background-attachment: fixed;  
+}
+}
+
+@media only screen and (max-width: 1024px) {
+.display{
+  text-align: center;
+  font-size: 3vw;
+  margin: 0% 12% 20% 12%;
+  padding: 4%;
+}
+
+h1 {
+  margin-top:10%;
+  font-size: 11vw;
+  margin-bottom: 13%;
+}
+
+h2{
+  font-size: 4vw;
+  margin-top: 15%;
+  margin-bottom: 3%;
+}
+
+.starting_sentence{ 
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  font-size:4vw;
+}
+
+.sub_heading{
+  font-size:3.7vw;
+}
+
+.instruction_box {
+  width:80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.instruction_box li {
+  margin: 0% 5% 0% 5%;  
+  text-align: left;
+}
+
+body {
+  background-image: url(flower_Mobile.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 125%; 
+  background-attachment: fixed;   
+}
+
+.button {
+  padding: 10px;
+  font-size: 22px;
+  font-weight:bold;
+}
+
+.button1 {
+  padding: 10px;
+  font-size: 22px;
+  font-weight:bold;
 }
 }
