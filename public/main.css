@@ -32,6 +32,7 @@ h1 {
   color:white;
   font-family: 'comic_boom_bubble_demoregular', sans-serif;
   font-size:5vw;
+  margin-bottom: 10%;
 }
 
 h2{
@@ -109,7 +110,7 @@ color: white;
 
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
 .display{
   text-align: center;
   font-size: 4vw;
@@ -118,8 +119,9 @@ color: white;
 }
 
 h1 {
-  margin-top:20%;
+  margin-top:15%;
   font-size: 12vw;
+  margin-bottom: 25%;
 }
 
 h2{
@@ -128,11 +130,19 @@ h2{
   margin-bottom: 3%;
 }
 
+.button {
+  font-size: 15px;
+}
+
+.button1 {
+  font-size: 15px;
+}
+
 .starting_sentence{ 
-  width: 70%;
+  width: 80%;
   text-align: center;
   margin: 0 auto;
-  font-size:5.5vw;
+  font-size:6vw;
 }
 
 .sub_heading{
@@ -156,11 +166,11 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; 
-  background-attachment: fixed;  
+  background-attachment: fixed;   
 }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 .display{
   text-align: center;
   font-size: 4vw;
@@ -169,14 +179,23 @@ body {
 }
 
 h1 {
-  margin-top:17%;
+  margin-top:10%;
   font-size: 11vw;
+  margin-bottom: 25%;
 }
 
 h2{
   font-size: 4vw;
   margin-top: 15%;
   margin-bottom: 3%;
+}
+
+.button {
+  font-size: 17px;
+}
+
+.button1 {
+  font-size: 17px;
 }
 
 .starting_sentence{ 
@@ -199,18 +218,19 @@ h2{
 .instruction_box li {
   margin: 0% 5% 0% 5%;  
   text-align: left;
-}
+  font-size: 2.3vh;
+} 
 
 body {
   background-image: url(flower_Mobile.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 125% 110%; 
-  background-attachment: fixed;  
-}
+  background-size: 125% auto; 
+  background-attachment: fixed;   
+} 
 }
 
-@media only screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 .display{
   text-align: center;
   font-size: 3vw;
@@ -221,7 +241,7 @@ body {
 h1 {
   margin-top:10%;
   font-size: 11vw;
-  margin-bottom: 13%;
+  margin-bottom: 25%;
 }
 
 h2{
@@ -256,19 +276,19 @@ body {
   background-image: url(flower_Mobile.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 125%; 
+  background-size: 125% auto; 
   background-attachment: fixed;   
-}
+}  
 
 .button {
   padding: 10px;
-  font-size: 22px;
+  font-size: 30px;
   font-weight:bold;
 }
 
 .button1 {
   padding: 10px;
-  font-size: 22px;
+  font-size: 30px;
   font-weight:bold;
 }
-}
+}  
