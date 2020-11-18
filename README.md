@@ -62,5 +62,5 @@ Pair programming
 - SQLite3
 
 ## Link to Heroku
-https://tellstory-pohutukawa.herokuapp.com/
+https://tell--story.herokuapp.com/
 
