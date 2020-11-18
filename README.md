@@ -1,7 +1,7 @@
 # Tell Story
 > A story generator that is inspired by Mad Libs. A user adds a sentence based on the last sentence they can see and generate the full story at the end.  
 
-!![alt text](./productScreenshot.png)
+!![product screenshot](public/product_Screenshot.PNG)
 
 ## Setup
 
