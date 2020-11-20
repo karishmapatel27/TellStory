@@ -2,8 +2,8 @@ body {
   font-family: 'montserrat', sans-serif;
   font-size: 25px;
   text-align: center;
-  color: white; 
-  background-image: url(side_flower.png);
+  color: rgb(77, 90, 93) ; 
+  background-image: url(cloud.jpg);
   /* background-image: url(cloud.jpg); */
   background-position: center center;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
   max-width: 100%;
 }
 .starting_sentence{
-  color: rgb(203, 238, 147); 
+  color: 	rgb(215, 137, 120); 
   width: 60%;
   text-align: center;
   margin: 0 auto;
@@ -21,22 +21,22 @@ body {
 
 .display{
   border: solid 3px;
-  border-color: rgb(203, 238, 147);
+  border-color:rgb(103, 25, 23);
   background-color:white;
-  color: rgb(89, 121, 115);
+  color: rgb(77, 90, 93);
   margin: 0% 15% 7% 15%;
   padding: 5%;
 }
 
 h1 {
-  color: rgb(152, 117, 38);
+  color: rgb(103, 25, 23);
   font-family: 'comic_boom_bubble_demoregular', sans-serif;
   font-size:5vw;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 
 h2{
-  color: rgb(203, 238, 147); 
+  color: rgb(215, 137, 120); 
   text-align: center;
   font-size: 3.5vh;
 }
@@ -46,10 +46,10 @@ h2{
   margin: 0 auto;
   padding: 1%;
   border: solid 3px;
-  border-color: rgb(203, 238, 147);
+  border-color: rgb(103, 25, 23);
   /* background-color: rgb(144, 189, 181);    */
   background-color:white;
-  color: rgb(89, 121, 115);
+  color: rgb(77, 90, 93);
 }
 
 .instruction_box li {
@@ -70,8 +70,8 @@ textarea {
 
 .button {
   color:white;
-  background-color:rgb(152, 117, 38); 
-  border-color: rgb(170, 134, 51); 
+  background-color:rgb(103, 25, 23); 
+  border-color: rgb(103, 25, 23); 
   padding: 10px;
   font-size: 15px;
   font-family: 'montserrat', sans-serif;
@@ -80,8 +80,8 @@ textarea {
 
 .button1 {
   color:white;
-  background-color: rgb(152, 117, 38);
-  border-color:rgb(170, 134, 51);
+  background-color: rgb(103, 25, 23);
+  border-color:rgb(103, 25, 23);
   padding: 10px;
   font-size: 15px;
   font-family: 'montserrat', sans-serif;
@@ -97,7 +97,7 @@ a {
 .sub_heading{
 text-align: center;
 padding: 0%;
-color: white;
+color: rgb(77, 90, 93);
 }
 
 
@@ -162,7 +162,7 @@ h2{
 }
 
 body {
-  background-image: url(flower_Mobile.png);
+  background-image: url(cloud_mobile.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -222,7 +222,7 @@ h2{
 } 
 
 body {
-  background-image: url(flower_Mobile.png);
+  background-image: url(cloud_mobile.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 125% auto; 
@@ -273,7 +273,7 @@ h2{
 }
 
 body {
-  background-image: url(flower_Mobile.png);
+  background-image: url(cloud_mobile.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 125% auto; 
