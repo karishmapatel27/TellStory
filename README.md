@@ -3,7 +3,7 @@
 
 
 
-![product screenshot](public/product_Screenshot1.PNG)
+![product screenshot](public/Product_Screenshot1.PNG)
 
 ## Setup
 
