@@ -1,6 +1,5 @@
 # Tell Story
-> A story generator that is inspired by Mad Libs. A user adds a sentence based on the last sentence they can see and generate the full story at the end.  
-
+> TellStory is a simple and entertaining story generator which takes a sentence and gets the user to build a new sentence based off the last one. Once completed, the full story can be generated.
 
 
 ![product screenshot](public/Product_Screenshot1.PNG)
